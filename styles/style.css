@@ -1,5 +1,6 @@
 .homepage-container {
   height: 100vh;
+  padding-top: 80px;
   background: linear-gradient(182.67deg, #F2EA7E 6.67%, rgba(189, 255, 0, 0.05) 91.73%);
 }
 
@@ -11,10 +12,12 @@
   font-variation-settings: 'slnt' -5 !important;
   text-shadow: 8px 4px 4px #FFFFFF;
 }
-.brand-h1{
+
+.brand-h1 {
   display: inline;
   margin: 0 !important;
 }
+
 .navbar-subtitle {
   font-size: 24px !important;
   text-decoration-line: underline;
@@ -52,20 +55,21 @@
 }
 
 .link-container:hover {
-  background-color: #208443!important;
+  background-color: #208443 !important;
 }
 
 .sesson-container {
   height: 80vh;
 }
 
-.process-container{
+.process-container {
   width: 100%;
   margin: 48px 0;
   padding: 48px 12px;
   background-color: #ffffff;
 }
-.process-chart-container{
+
+.process-chart-container {
   max-width: 1440px;
   margin: auto;
 }
@@ -147,16 +151,45 @@
   top: calc(50% - 3px);
 }
 
-.process-title{
+.process-title {
   font-size: 3rem;
 
   border-radius: 8px;
   font-weight: 500;
 }
 
-.process-content{
-  font-size: 24px ;
+.process-content {
+  font-size: 24px;
   font-weight: 400;
 }
 
-克服諮詢 : 官方LINE 最新資訊暫定 : 公告欄
+.left-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.right-content {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-content>img {
+  position: absolute;
+  object-fit: contain;
+  scale: 1.4;
+  width: 100%;
+}
+
+@media screen and (max-width : 768px) {
+  .right-content{
+    display: none;
+  }
+}
