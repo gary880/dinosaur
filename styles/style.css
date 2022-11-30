@@ -1,0 +1,162 @@
+.homepage-container {
+  height: 100vh;
+  background: linear-gradient(182.67deg, #F2EA7E 6.67%, rgba(189, 255, 0, 0.05) 91.73%);
+}
+
+.brand-title {
+  font-family: 'Inter';
+  font-weight: 800 !important;
+  font-size: 32px !important;
+  color: #26A653 !important;
+  font-variation-settings: 'slnt' -5 !important;
+  text-shadow: 8px 4px 4px #FFFFFF;
+}
+.brand-h1{
+  display: inline;
+  margin: 0 !important;
+}
+.navbar-subtitle {
+  font-size: 24px !important;
+  text-decoration-line: underline;
+}
+
+.navbar-box {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav-container {
+  max-width: 1440px !important;
+  padding: 0 24px !important;
+}
+
+.navlink-container {
+  width: 100%;
+}
+
+.navbar-links {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  max-width: 1440px !important;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.navbar-links:hover {
+  color: white;
+}
+
+.link-container {
+  background-color: #26A653 !important;
+}
+
+.link-container:hover {
+  background-color: #208443!important;
+}
+
+.sesson-container {
+  height: 80vh;
+}
+
+.process-container{
+  width: 100%;
+  margin: 48px 0;
+  padding: 48px 12px;
+  background-color: #ffffff;
+}
+.process-chart-container{
+  max-width: 1440px;
+  margin: auto;
+}
+
+.circle {
+  padding: 12px 20px;
+  border-radius: 50%;
+  background-color: #FF8A00;
+  color: #fff;
+  max-height: 50px;
+  font-size: larger;
+  z-index: 2;
+}
+
+.how-it-works.row .col-2 {
+  align-self: stretch;
+}
+
+.how-it-works.row .col-2.bottom::after {
+  height: 50%;
+  left: 50%;
+  top: 50%;
+}
+
+.how-it-works.row .col-2.full::after {
+  height: 100%;
+  left: calc(50% - 3px);
+}
+
+
+.how-it-works.row .col-2.top::after {
+  height: 50%;
+  left: 50%;
+  top: 0;
+}
+
+
+.timeline div {
+  padding: 0;
+  height: 40px;
+}
+
+.timeline hr {
+  border-top: 3px solid #FF8A00;
+  margin: 0;
+  top: 17px;
+  position: relative;
+}
+
+.timeline .col-2 {
+  display: flex;
+  overflow: hidden;
+}
+
+.timeline .corner {
+  border: 3px solid #FF8A00;
+  width: 100%;
+  position: relative;
+  border-radius: 15px;
+}
+
+.timeline .top-right {
+  left: 50%;
+  top: -50%;
+}
+
+.timeline .left-bottom {
+  left: -50%;
+  top: calc(50% - 3px);
+}
+
+.timeline .top-left {
+  left: -50%;
+  top: -50%;
+}
+
+.timeline .right-bottom {
+  left: 50%;
+  top: calc(50% - 3px);
+}
+
+.process-title{
+  font-size: 3rem;
+
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.process-content{
+  font-size: 24px ;
+  font-weight: 400;
+}
+
+克服諮詢 : 官方LINE 最新資訊暫定 : 公告欄
