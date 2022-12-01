@@ -1,195 +1,229 @@
+@import url('//fonts.googleapis.com/earlyaccess/notosanstc.css');
+body {
+    font-family: 'Noto Sans TC', sans-serif !important;
+}
+
+
 .homepage-container {
-  height: 100vh;
-  padding-top: 80px;
-  background: linear-gradient(182.67deg, #F2EA7E 6.67%, rgba(189, 255, 0, 0.05) 91.73%);
+    height: 100vh;
+    padding-top: 80px;
+    background: linear-gradient(182.67deg, #F2EA7E 6.67%, rgba(189, 255, 0, 0.05) 91.73%);
 }
 
 .brand-title {
-  font-family: 'Inter';
-  font-weight: 800 !important;
-  font-size: 32px !important;
-  color: #26A653 !important;
-  font-variation-settings: 'slnt' -5 !important;
-  text-shadow: 8px 4px 4px #FFFFFF;
+    font-family: 'Inter';
+    font-weight: 800 !important;
+    font-size: 32px !important;
+    color: #26A653 !important;
+    font-variation-settings: 'slnt' -5 !important;
+    text-shadow: 8px 4px 4px #FFFFFF;
 }
 
 .brand-h1 {
-  display: inline;
-  margin: 0 !important;
+    display: inline;
+    margin: 0 !important;
 }
 
 .navbar-subtitle {
-  font-size: 24px !important;
-  text-decoration-line: underline;
+    font-size: 24px !important;
+    text-decoration-line: underline;
 }
 
 .navbar-box {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .nav-container {
-  max-width: 1440px !important;
-  padding: 0 24px !important;
+    max-width: 1440px !important;
+    padding: 0 24px !important;
 }
 
 .navlink-container {
-  width: 100%;
+    width: 100%;
 }
 
 .navbar-links {
-  text-decoration: none;
-  color: white;
-  font-size: 24px;
-  max-width: 1440px !important;
-  width: 100%;
-  display: inline-block;
-  text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    max-width: 1440px !important;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
 }
 
 .navbar-links:hover {
-  color: white;
+    color: white;
 }
 
 .link-container {
-  background-color: #26A653 !important;
+    background-color: #26A653 !important;
 }
 
 .link-container:hover {
-  background-color: #208443 !important;
+    background-color: #208443 !important;
 }
 
-.sesson-container {
-  height: 80vh;
-}
 
 .process-container {
-  width: 100%;
-  margin: 48px 0;
-  padding: 48px 12px;
-  background-color: #ffffff;
+    width: 100%;
+    margin: 48px 0;
+    padding: 48px 12px;
+    background-color: #ffffff;
 }
 
 .process-chart-container {
-  max-width: 1440px;
-  margin: auto;
+    max-width: 1440px;
+    margin: auto;
 }
 
+.sesson-container {
+    margin: 48px auto auto;
+    width: 100%;
+    min-height: max-content;
+}
+
+.sesson-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    margin-bottom: 48px;
+}
+
+.sesson-title > p {
+    color: #208443;
+}
+
+.sesson-card {
+    width: 280px;
+    min-height: 280px;
+    text-align: center;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.sesson-icons {
+    font-size: 48px !important;
+    margin-bottom: 24px;
+}
 .circle {
-  padding: 12px 20px;
-  border-radius: 50%;
-  background-color: #FF8A00;
-  color: #fff;
-  max-height: 50px;
-  font-size: larger;
-  z-index: 2;
+    padding: 12px 20px;
+    border-radius: 50%;
+    background-color: #FF8A00;
+    color: #fff;
+    max-height: 50px;
+    font-size: larger;
+    z-index: 2;
 }
 
 .how-it-works.row .col-2 {
-  align-self: stretch;
+    align-self: stretch;
 }
 
 .how-it-works.row .col-2.bottom::after {
-  height: 50%;
-  left: 50%;
-  top: 50%;
+    height: 50%;
+    left: 50%;
+    top: 50%;
 }
 
 .how-it-works.row .col-2.full::after {
-  height: 100%;
-  left: calc(50% - 3px);
+    height: 100%;
+    left: calc(50% - 3px);
 }
 
 
 .how-it-works.row .col-2.top::after {
-  height: 50%;
-  left: 50%;
-  top: 0;
+    height: 50%;
+    left: 50%;
+    top: 0;
 }
 
 
 .timeline div {
-  padding: 0;
-  height: 40px;
+    padding: 0;
+    height: 40px;
 }
 
 .timeline hr {
-  border-top: 3px solid #FF8A00;
-  margin: 0;
-  top: 17px;
-  position: relative;
+    border-top: 3px solid #FF8A00;
+    margin: 0;
+    top: 17px;
+    position: relative;
 }
 
 .timeline .col-2 {
-  display: flex;
-  overflow: hidden;
+    display: flex;
+    overflow: hidden;
 }
 
 .timeline .corner {
-  border: 3px solid #FF8A00;
-  width: 100%;
-  position: relative;
-  border-radius: 15px;
+    border: 3px solid #FF8A00;
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
 }
 
 .timeline .top-right {
-  left: 50%;
-  top: -50%;
+    left: 50%;
+    top: -50%;
 }
 
 .timeline .left-bottom {
-  left: -50%;
-  top: calc(50% - 3px);
+    left: -50%;
+    top: calc(50% - 3px);
 }
 
 .timeline .top-left {
-  left: -50%;
-  top: -50%;
+    left: -50%;
+    top: -50%;
 }
 
 .timeline .right-bottom {
-  left: 50%;
-  top: calc(50% - 3px);
+    left: 50%;
+    top: calc(50% - 3px);
 }
 
 .process-title {
-  font-size: 3rem;
+    font-size: 3rem;
 
-  border-radius: 8px;
-  font-weight: 500;
+    border-radius: 8px;
+    font-weight: 500;
 }
 
 .process-content {
-  font-size: 24px;
-  font-weight: 400;
+    font-size: 24px;
+    font-weight: 400;
 }
 
 .left-content {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
 
 .right-content {
-  height: 100%;
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.right-content>img {
-  position: absolute;
-  object-fit: contain;
-  scale: 1.4;
-  width: 100%;
+.right-content > img {
+    position: absolute;
+    object-fit: contain;
+    scale: 1.4;
+    width: 100%;
 }
 
-@media screen and (max-width : 768px) {
-  .right-content{
-    display: none;
-  }
+@media screen and(max-width : 768px) {
+    .right-content {
+        display: none;
+    }
 }
