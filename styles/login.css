@@ -86,4 +86,6 @@ body {
   .line-login-btn{
     background-color:#06C755 ;
     color: white;
+    border: none;
+    border-radius: 8px;
   }
