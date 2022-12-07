@@ -392,9 +392,130 @@ body {
     width: 80%;
 }
 
+.billing {
+    background-color: #e6e6e6;
+}
+
+.profile-wrap {
+    max-width: 1440px;
+    margin: auto;
+    padding: 80px 48px;
+}
+
+.tab-content{
+    padding: 0 24px;
+}
+.sidebar {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 150px;
+    outline: 3px solid #26A653;
+    background-color: white;
+    outline-offset: -3px;
+    border: #26A653 2px solid;
+    border-radius: 8px;
+    transform: translateX(-150px);
+    transition: transform 250ms ease-in-out;
+    display: none;
+}
+
+.menu-control-icon {
+    transition: transform 250ms ease-in-out;
+}
+
+.menu-control-lable {
+    display: none;
+    align-items: center;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: absolute;
+    left: 150px;
+    height: 120px;
+    width: 35px;
+    top: 37%;
+    color: white;
+    background-color: #26A653;
+    transform: translateX(-150px);
+    transition: transform 250ms ease-in-out;
+    cursor: pointer;
+}
+
+
+
+.nav-tabs {
+    border: none !important;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.table-container {
+    min-height: 450px;
+    width: 100%;
+ 
+    outline: #06C755 3px solid;
+    outline-offset: -3px;
+}
+
+
+
+.nav-link-style {
+    color: #26A653 !important;
+    width: 100%;
+    border-radius: 0 !important;
+
+}
+
+.desktop-nav-link-style {
+    color: #26A653 !important;
+    font-weight: bold !important;
+    font-size: larger !important;
+    width: calc(100%/6);
+}
+
+.nav-pills>.active {
+    background-color: #26A653 !important;
+    color: white !important;
+}
+
+.nav-tabs>.active {
+    background-color: #26A653 !important;
+    color: white !important;
+}
+
+#menu-control:checked~.sidebar {
+    transform: translateX(0);
+}
+
+#menu-control:checked~.menu-control-lable span {
+    transform: rotate(180deg)
+}
+
+#menu-control:checked~.menu-control-lable {
+    transform: translateX(0px);
+}
+
+.sidebar-container {
+    position: relative;
+}
+
 
 @media screen and (max-width:768px) {
     .iframe-rwd {
         width: 90%;
     }
+    .profile-wrap{
+        padding: 80px 0;
+    }
+    .sidebar {
+        display: block;
+    }
+    .menu-control-lable {
+        display: flex;
+    }
+    .desktop-sidebar {
+        display: none;
+    }
+
 }
