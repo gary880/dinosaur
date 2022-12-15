@@ -634,6 +634,9 @@ body {
     background-color: white;
     transition: all 1s;
 }
+.embed-responsive-item{
+    height: 525px;
+}
 
 @media screen and (max-width:768px) {
     .iframe-rwd {
@@ -661,5 +664,8 @@ body {
     }
     .search-input{
         margin-bottom: 12px;
+    }
+    .embed-responsive-item{
+        height: 400px;
     }
 }
