@@ -636,6 +636,8 @@ body {
 }
 .embed-responsive-item{
     height: 525px;
+    max-height: 100%;
+    overflow: scroll;
 }
 
 @media screen and (max-width:768px) {
@@ -651,6 +653,7 @@ body {
     }
     .menu-control-lable {
         display: flex;
+        z-index: 999;
     }
     .desktop-sidebar {
         display: none;
@@ -666,6 +669,6 @@ body {
         margin-bottom: 12px;
     }
     .embed-responsive-item{
-        height: 400px;
+        max-height: 100%;
     }
 }
