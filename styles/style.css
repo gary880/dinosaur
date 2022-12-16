@@ -639,6 +639,32 @@ body {
     max-height: 100%;
     overflow: scroll;
 }
+.paymentForm{
+    max-width: 1080px;
+    margin: auto;
+}
+.paymentBtn{
+    width: 25%;
+    height: 60px;
+    font-size: large;
+    border-radius: 12px;
+    color: white;
+    border: 0;
+    background-color: #06C755;
+    margin: 0 24px;
+    font-weight: bold;
+}
+.contractBtn{
+    width: 25%;
+    height: 60px;
+    font-size: large;
+    border-radius: 12px;
+    color: white;
+    border: 0;
+    background-color: #5BB6FF;
+    margin: 0 24px;
+    font-weight: bold;
+}
 
 @media screen and (max-width:768px) {
     .iframe-rwd {
@@ -670,5 +696,13 @@ body {
     }
     .embed-responsive-item{
         max-height: 100%;
+    }
+    .paymentBtn{
+        width: 100%;
+       
+    }
+    .contractBtn{
+        width: 100%;
+        margin-bottom: 24px;
     }
 }
