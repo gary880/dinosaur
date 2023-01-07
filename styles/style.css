@@ -431,9 +431,9 @@ body {
     border-bottom-right-radius: 15px;
     position: absolute;
     left: 150px;
-    height: 120px;
+    height: 100px;
     width: 35px;
-    top: 37%;
+    top: 32%;
     color: white;
     background-color: #26A653;
     transform: translateX(-150px);
